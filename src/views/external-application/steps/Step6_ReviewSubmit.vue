@@ -141,7 +141,7 @@ import { ref } from 'vue'
 import AppDropdown from '@/components/ui/AppDropdown.vue'
 import AppButton from '@/components/ui/AppButton.vue'
 import apiClient from '@/services/apiClient'
-import { useApplicantStore } from '@/stores/applicantStore'
+import { useApplicantStore } from '@/stores/ApplicantStore'
 
 // ✅ إضافة الخصائص (props) الجديدة لاستقبال بيانات الوظيفة الثابتة
 const props = defineProps({

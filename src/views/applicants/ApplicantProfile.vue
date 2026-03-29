@@ -63,7 +63,7 @@
 <script setup>
 import { ref, computed, onMounted, markRaw } from 'vue'
 import { useRoute, useRouter } from 'vue-router'
-import { useApplicantStore } from '@/stores/applicantStore'
+import { useApplicantStore } from '@/stores/ApplicantStore'
 
 // استيراد المكونات الصغيرة التي بنيناها
 import BasicInfoTab from './components/BasicInfoTab.vue'

@@ -193,7 +193,7 @@
 
 <script setup>
 import { reactive, ref } from 'vue'
-import { useApplicantStore } from '@/stores/applicantStore'
+import { useApplicantStore } from '@/stores/ApplicantStore'
 import AppInput from '@/components/ui/AppInput.vue'
 import AppButton from '@/components/ui/AppButton.vue'
 import CitiesDropdown from '@/components/forms/CitiesDropdown.vue'
