@@ -177,7 +177,7 @@
 <script setup>
 import { ref, onMounted } from 'vue'
 import { useRouter } from 'vue-router'
-import { useApplicantStore } from '@/stores/ApplicantStore'
+import { useApplicantStore } from '@/stores/applicantStore'
 import AppTable from '@/components/ui/AppTable.vue'
 
 const router = useRouter()

@@ -77,7 +77,7 @@
 
 <script setup>
 import { reactive } from 'vue'
-import { useApplicantStore } from '@/stores/ApplicantStore'
+import { useApplicantStore } from '@/stores/applicantStore'
 import AppInput from '@/components/ui/AppInput.vue'
 import AppButton from '@/components/ui/AppButton.vue'
 
