@@ -22,7 +22,7 @@
               v-model="form.SkillName"
               label="اسم المهارة"
               required
-              placeholder="مثال: إدارة المشاريع، Vue.js"
+              placeholder="مثال: إدارة المشاريع واللغات والمهارات"
             />
           </div>
 
